@@ -1,0 +1,138 @@
+#container
+{
+    /* border:1px solid red; */
+    margin-top: 10vh;
+    width:80%;  
+    margin-left:15%;
+    padding: 20px;
+}
+#container h1
+{
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.25;
+    color:#000;
+    text-align: left;
+}
+.filter
+{
+    display:flex;
+    margin-top:10px;
+    width:30%;
+    align-items: center;
+}
+.filter img
+{
+    height:25px;
+    width:25px;
+    margin-right:5px;
+    cursor:pointer;
+}
+.cat_items
+{
+    margin-top:10px;
+    width:auto;
+    /* border:1px solid green;  */
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.cat_list
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+}
+.cat_list_item
+{
+    list-style-type: none;
+    font-size: 13px;
+    flex-wrap: wrap;
+    margin:5px;
+    border:1px solid #0084ff;
+    border-radius:30px;
+    cursor:pointer;
+    padding:6px 16px;
+}
+.cat_list_item a
+{
+    text-decoration: none;
+    color:#0084ff;
+}
+
+.card_container
+{
+    /* border:1px solid black; */
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+}
+.cards
+{
+    width:35%;
+    border:1px solid #0084ff;
+    margin-right: 20px;
+    margin-top:20px;
+    border-radius:8px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px 3px rgba(7, 7, 7, 0.2);
+}
+.img_div
+{
+    width:100%;
+    height:200px;
+}
+.img_div img
+{
+    width:100%;
+    height:100%;
+}
+.details
+{
+    padding:20px;
+    background-color: #fff;
+}
+.title
+{
+    font-size: 1.25em;
+    letter-spacing: 0px;
+    line-height: 1.14;
+    font-weight: 600;
+    margin-top:10px;
+    text-transform: capitalize;
+}
+.author
+{
+    color:#0084ff;
+    text-transform: capitalize;
+    margin-top:10px;
+}
+.author span
+{
+    color:black;
+}
+.description
+{
+    color:#999797;
+    font-size: 14px;
+    margin-top:10px;
+    line-height: 1.5em;
+}
+.cat_list_item:hover
+{
+    background-color: #0084ff;
+}
+.cat_list_item:hover a
+{
+    color:#fff;
+}
+.cards:hover
+{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    transform: scale(10px.10px);
+    transition: .6s;
+}

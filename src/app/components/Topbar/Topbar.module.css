@@ -1,0 +1,101 @@
+.topbar
+{
+    border-bottom:1px solid #999797;
+    box-shadow: 1px 1px  #999797;
+    position:fixed;
+    width:100%;
+    top:0;
+    background-color: #FFF;
+    padding: 10px 30px 10px 30px;
+}
+.logo
+{
+    color: #0084ff;
+    background-image: linear-gradient(360deg,#0048ff,#0096ff),linear-gradient(#000,#000);
+    font-size: 32px;
+    background-clip: text;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: -1px;
+}
+.paradiv
+{
+    width:300px;
+    cursor:pointer;
+}
+
+.head_left_logo
+{
+    padding-right: 65px;
+    width:70px;
+    height:60px;
+    /* border:1px solid black */
+}
+.head_left_logo span
+{
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.topbar_container
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 8px 3px; */
+}
+.head_left
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border:1px solid orange; */
+    padding-right: 5px;
+    width:27%;
+}
+.explorecat
+{
+    display:flex;
+    align-items: center;
+}
+.explorecat span img
+{
+    margin-left:8px;
+}
+.explore
+{
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 1px;
+    align-items:baseline;
+}
+
+.headpara
+{
+    display:flex;
+    flex-wrap: wrap;
+    color:#999797;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+.head_right
+{
+    display:flex;
+    /* width:35%; */
+    justify-content: space-between;
+    align-items: center;
+    /* border:1px solid yellow;  */
+}
+.button
+{
+    text-transform: capitalize;
+    font-size: 12px;
+    border-radius: 30px;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    color:#fff;
+    padding: 14px 20px;
+    cursor:pointer;  
+    width:30%;
+    text-align: center;
+    margin-left: 40px;
+}
